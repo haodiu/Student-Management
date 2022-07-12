@@ -244,7 +244,7 @@ namespace QLDSV_HTC.Forms
             }
             this.sp_GetThongTinDongHocPhiBindingSource.AddNew();
         }
-
+        //SUA HOC PHI DONG
         private void barButtonEdit_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             if (sp_GetChiTietDongHocPhiBindingSource.Count > 0)

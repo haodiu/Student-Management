@@ -89,13 +89,11 @@ namespace QLDSV_HTC.Forms
                 if (Program.SVLogin != Program.AuthLogin)
                 {
                     MessageBox.Show("Tên tài khoản không đúng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    //Program.MyReader.Close();
                     return;
                 }
                 if (Program.SVPassword != Program.AuthPassword)
                 {
                     MessageBox.Show("Mật khẩu không đúng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    //Program.MyReader.Close();
                     return;
                 }
 

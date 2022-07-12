@@ -117,6 +117,12 @@
     <Compile Include="Forms\DiemForm.Designer.cs">
       <DependentUpon>DiemForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\dkltc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\dkltc.Designer.cs">
+      <DependentUpon>dkltc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\HocPhiForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -242,6 +248,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DiemForm.resx">
       <DependentUpon>DiemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\dkltc.resx">
+      <DependentUpon>dkltc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HocPhiForm.resx">
       <DependentUpon>HocPhiForm.cs</DependentUpon>

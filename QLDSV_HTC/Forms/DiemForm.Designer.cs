@@ -181,15 +181,15 @@ namespace QLDSV_HTC.Forms
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(1117, 24);
+            this.barDockControlTop.Size = new System.Drawing.Size(1219, 24);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 785);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 809);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(1117, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1219, 0);
             // 
             // barDockControlLeft
             // 
@@ -197,15 +197,15 @@ namespace QLDSV_HTC.Forms
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 24);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 761);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 785);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1117, 24);
+            this.barDockControlRight.Location = new System.Drawing.Point(1219, 24);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 761);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 785);
             // 
             // barButtonAdd
             // 
@@ -255,7 +255,7 @@ namespace QLDSV_HTC.Forms
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 24);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1117, 103);
+            this.panelControl1.Size = new System.Drawing.Size(1219, 103);
             this.panelControl1.TabIndex = 11;
             // 
             // panelControl3
@@ -265,7 +265,7 @@ namespace QLDSV_HTC.Forms
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl3.Location = new System.Drawing.Point(2, 2);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(1113, 101);
+            this.panelControl3.Size = new System.Drawing.Size(1215, 101);
             this.panelControl3.TabIndex = 2;
             // 
             // groupControl1
@@ -276,7 +276,7 @@ namespace QLDSV_HTC.Forms
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.Location = new System.Drawing.Point(394, 2);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(717, 97);
+            this.groupControl1.Size = new System.Drawing.Size(819, 97);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Bảng điều khiển";
             // 
@@ -459,7 +459,8 @@ namespace QLDSV_HTC.Forms
             this.gc_DSSV_DANGKY.MainView = this.gridView1;
             this.gc_DSSV_DANGKY.MenuManager = this.barManager1;
             this.gc_DSSV_DANGKY.Name = "gc_DSSV_DANGKY";
-            this.gc_DSSV_DANGKY.Size = new System.Drawing.Size(1079, 363);
+            this.gc_DSSV_DANGKY.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.gc_DSSV_DANGKY.Size = new System.Drawing.Size(1152, 363);
             this.gc_DSSV_DANGKY.TabIndex = 0;
             this.gc_DSSV_DANGKY.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -551,7 +552,7 @@ namespace QLDSV_HTC.Forms
             this.groupControl4.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupControl4.Location = new System.Drawing.Point(0, 127);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(1117, 294);
+            this.groupControl4.Size = new System.Drawing.Size(1219, 294);
             this.groupControl4.TabIndex = 18;
             this.groupControl4.Text = "Danh sách lớp tín chỉ";
             // 
@@ -563,7 +564,7 @@ namespace QLDSV_HTC.Forms
             this.sp_GetDS_LTCGridControl.MainView = this.gridView2;
             this.sp_GetDS_LTCGridControl.MenuManager = this.barManager1;
             this.sp_GetDS_LTCGridControl.Name = "sp_GetDS_LTCGridControl";
-            this.sp_GetDS_LTCGridControl.Size = new System.Drawing.Size(1113, 269);
+            this.sp_GetDS_LTCGridControl.Size = new System.Drawing.Size(1215, 269);
             this.sp_GetDS_LTCGridControl.TabIndex = 0;
             this.sp_GetDS_LTCGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -626,9 +627,9 @@ namespace QLDSV_HTC.Forms
             // groupControl5
             // 
             this.groupControl5.Controls.Add(this.gc_DSSV_DANGKY);
-            this.groupControl5.Location = new System.Drawing.Point(0, 397);
+            this.groupControl5.Location = new System.Drawing.Point(0, 421);
             this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(1083, 388);
+            this.groupControl5.Size = new System.Drawing.Size(1151, 388);
             this.groupControl5.TabIndex = 19;
             this.groupControl5.Text = "Danh sách điểm sinh viên";
             // 
@@ -641,7 +642,7 @@ namespace QLDSV_HTC.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1134, 751);
+            this.ClientSize = new System.Drawing.Size(1236, 751);
             this.Controls.Add(this.groupControl5);
             this.Controls.Add(this.groupControl4);
             this.Controls.Add(this.panelControl1);

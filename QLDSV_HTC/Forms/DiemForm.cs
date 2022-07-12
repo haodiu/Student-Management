@@ -41,6 +41,7 @@ namespace QLDSV_HTC.Forms
             Utils.ChangeServer(cmbKhoa);
         }
 
+        //LẤY DANH SÁCH
         private void btnStart_Click(object sender, EventArgs e)
         {
             try
