@@ -1,0 +1,31 @@
+--- role PGV (Phòng giáo vụ) đăng nhập 
+được cả 2 site CNTT + VT
+GV01 - 123456 PGV
+
+
+---role KHOA(quản lí khoa) - đăng nhập site 'Công nghệ thông tin'
+GV02 - 123456
+
+---role KHOA(quản lí khoa) - đăng nhập site 'Viễn thông'
+GV04 - 123456
+
+
+---role PKT(Phòng kế toán) - đăng nhập site 'Học phí'
+GV06 - 123456
+
+
+---role SV (sinh viên dùng chung 1 tài khoản để 
+đăng kí lớp học)
+SVDK - 123456
+
+
+
+
+
+
+
+
+
+
+app.config
+ds.designer.cs
