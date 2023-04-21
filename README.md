@@ -23,6 +23,6 @@ Quản lý điểm sinh viên theo hệ tín chỉ
   - Nếu login thuộc nhóm PKT thì chỉ được quyền cập nhật dữ liệu đóng học phí của sinh viên, chỉ được tạo tài khoản mới thuộc cùng nhóm.
   Chương trình cho phép ta tạo các login, password và cho login này làm việc với quyền hạn tương ứng. Căn cứ vào quyền này khi user login vào hệ thống, ta sẽ biết người đó được quyền làm việc với mảnh phân tán nào hay trên tất cả các phân mảnh.
   
->Project sử dụng visual studio 2019 + devexpress 19.2.5
->Giao diện demo trong thư mục Images
->Đọc file De2-QLDSV_HTC-SQLSERVER_PhanTan.docx để biết chi tiết yêu cầu đề tài**
+>Project sử dụng visual studio 2019 + devexpress 19.2.5.
+>Giao diện demo trong thư mục Images.
+>Đọc file De2-QLDSV_HTC-SQLSERVER_PhanTan.docx để biết chi tiết yêu cầu đề tài.
